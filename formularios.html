@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DEL APLICATIVO WEB</title>
+</head>
+<body>
+    <form action="registro.jsp">
+        <label for="fnombre">
+            Nombre:
+        </label>
+        <input type="text" name="nombre">
+        <br>
+        <label for="fapellido">
+            Apellido:
+        </label>
+        <input type="text" name="apellido" >
+        <br>
+        <label for="fdireccion">
+            Dirección:
+        </label>
+        <input type="text" name="direccion" >
+        <br>
+        <label for="fsalario">
+            Salario:
+        </label>
+        <input type="number" name="salario">
+        <br>
+        <label for="ffechanac">
+            Fecha de Nacimiento:
+        </label>
+        <input type="date" name="fechanac">
+        <br>
+        <label for="fhobbies">
+            Hobbies:
+        </label>
+        <input type="checkbox" name="escuchar musica" >Musica
+        <input type="checkbox" name="programcion" >Programación
+        <input type="checkbox" name="leer" >Leer
+        <input type="checkbox" name="jugar" >Jugar
+        <br>
+        <label for="fsexo">
+            Sexo:
+        </label>
+        <input type="radio" name="sexo">Femenino
+        <input type="radio" name="sexo" >Masculino
+        <br>
+        <label for="festado">
+            Estdo Civil:
+        </label>
+        <select name="estado">
+            <option value="Ninguna" selected>Niguna</option>
+            <option value="Soltero">Soltero</option>
+            <option value="Casado">Casado</option>
+            <option value="Union Libre">Union Libre</option>
+            <option value="Divorciado">Divorciado</option>
+            <option value="Viudo">Viudo</option>
+        </select>
+        <br>
+        <br>
+            <label for="fContactos">
+                Contacto:
+            </label>
+            <br>
+            <textarea name="Contacto" cols="30" rows="10" draggable="off" placeholder="Escriba Datos  De Contacto"></textarea>
+            <br>
+            <label for="fcolor">
+                Color Favorito:
+            </label>
+            <input type="color" name="color">
+            <br>
+            <label for="fcorriculum">
+                Hoja de Vida:
+            </label>
+            <input type="file" name="curriculum"accept= ".pdf">
+            <br>
+            <label for="fcorreo">
+                Correo Electronico:
+            </label>
+            <input type="email" name="correo" >
+            <br>
+            <label for="fcalve">
+                Clave:
+            </label>
+            <input type="password" name="clave">
+            <br>
+            <input type="text" name="login" placeholder="Escriba su Login">
+            <br>
+            <label for="ftelefono">
+                Telefono:
+            </label>
+            <input type="tel" name="telefono">
+            <br>
+            <label for="fbuscar">
+                Buscar:
+            </label>
+            <input type="search" name="buscar" >
+            <br>
+            <button type="submit">Registrar</button>
+            <button type="reset">Restablecer</button>
+            <input type="image" src="../Imagenes/GUARDAR.jfif" alt="guardar" width="45p">
+            <input type="hidden" name="yolanda.balza">
+        </form>
+</body>
+</html>
